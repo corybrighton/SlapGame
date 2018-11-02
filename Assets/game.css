@@ -1,0 +1,12 @@
+body{
+  background-image: url("png/cockpitView.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.holder{
+    height: 833px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
