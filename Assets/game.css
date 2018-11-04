@@ -4,7 +4,9 @@ body{
   background-size: cover;
   background-position: center;
 }
-
+.mainwrapper{
+  height: 100vh;
+}
 .target{
   height: 200px;
 }

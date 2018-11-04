@@ -67,13 +67,11 @@ function drawLasers() {
   console.log(weapons.rateOfFire)
 
   if (weapons.rateOfFire == 2) {
-    console.log("here")
     lL = [laserImg.left, laserImg.clear, laserImg.left, laserImg.clear]
     lLL = [laserImg.clear, laserImg.left, laserImg.clear, laserImg.left]
     lR = [laserImg.clear, laserImg.right, laserImg.clear, laserImg.right]
     lRL = [laserImg.right, laserImg.clear, laserImg.right, laserImg.clear]
   } else if (weapons.rateOfFire == 4) {
-    console.log("here")
     lL = [laserImg.left, laserImg.left, laserImg.left, laserImg.left]
     lLL = [laserImg.left, laserImg.left, laserImg.left, laserImg.left]
     lR = [laserImg.right, laserImg.right, laserImg.right, laserImg.right]
