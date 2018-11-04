@@ -64,7 +64,6 @@ function drawLasers() {
   let lLL = [laserImg.clear, laserImg.left, laserImg.clear, laserImg.clear]
   let lR = [laserImg.clear, laserImg.clear, laserImg.right, laserImg.clear]
   let lRL = [laserImg.clear, laserImg.clear, laserImg.clear, laserImg.right]
-  console.log(weapons.rateOfFire)
 
   if (weapons.rateOfFire == 2) {
     lL = [laserImg.left, laserImg.clear, laserImg.left, laserImg.clear]
