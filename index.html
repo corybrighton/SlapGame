@@ -12,23 +12,43 @@
 </head>
 
 <body>
+  <div class="container-fluid target" id="enemey">
+    <div class="row d-flex justify-content-center">
+      <div id="progress" class="progress setupProgress">
+      </div>
+    </div>
+    <div class="row d-flex justify-content-between">
+      <button class="btn btn-primary round" onclick="reset()">Eject</button>
+      <div class="col laserImg d-flex flex-column" id="laserL">
+      </div>
+      <div id="enemeyPic">
+        <img src="https://vignette.wikia.nocookie.net/battlefront/images/e/ed/TIE_Interceptor.png/revision/latest?cb=20110825201554"
+          alt="">
+      </div>
+      <div class="col laserImgR img-fluid" id="laserR">
+      </div>
+      <div class="col-1 d-flex flex-column">
+        <span>Health:<span id="health">--</span></span>
+        <span>Hits:<span id="hits">--</span></span>
+      </div>
+    </div>
+
+  </div>
   <div class="container holder">
-    <div class="row">
-      <div class="col-3 d-flex flex-column">
-        <button onclick="">Single</button>
-        <button onclick="">Double</button>
-        <button onclick="">Quad</button>
+    <div class="row wider">
+      <div id="modButtons" class="col-3 d-flex flex-column">
       </div>
-      <div class="col-6 d-flex justify-content-center">
-        <button onclick="">Fire</button>
+      <div class="col-6 d-flex justify-content-center" id="fireButton">
+        <button class="btn btn-danger round" onclick="fireAKAslap(1)">Fire</button>
       </div>
       <div class="col-3 d-flex flex-column">
-        <button onclick="">Lazer Cannons</button>
-        <button onclick="">Concussion Missiles</button>
-        <button onclick="">Proton Torpedoes</button>
+        <button class="btn btn-warning round btn-block" onclick="missileAKAkick('missile')">Missile</button>
+        <button class="btn btn-warning round btn-block" onclick="photonAKApunch('proton')">Proton</button>
       </div>
     </div>
   </div>
+  <script src="Assets/game.js"></script>
+
 </body>
 
 </html>

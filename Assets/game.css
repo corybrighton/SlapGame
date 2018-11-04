@@ -4,9 +4,39 @@ body{
   background-size: cover;
   background-position: center;
 }
+
+.target{
+  height: 200px;
+}
+
 .holder{
-    height: 833px;
+    height: 728px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+}
+
+.setupProgress{
+  height: 5px;
+  width: 100px;
+}
+.round{
+  border: none;
+  border-radius: 50%;
+}
+
+.wider{
+  width: 460px;
+}
+
+.laserImg{
+  max-width: 75px;
+  margin-top: 35px;
+  margin-left: 215px;
+}
+
+.laserImgR{
+  max-width: 75px;
+  margin-top: 35px;
+  margin-right: 215px;
 }
