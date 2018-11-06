@@ -7,12 +7,14 @@ let empire = {
     weapons: ["laser", 'missile', 'proton']
   }
 }
+
 let laserImg = {
   clear: 'Assets/png/clearLaser.png',
   left: 'Assets/png/laser.png',
   right: 'Assets/png/laserR.png',
   index: 0
 }
+
 let weapons =
 {
   laser: 1,

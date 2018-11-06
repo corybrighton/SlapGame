@@ -40,15 +40,16 @@
         <div id="modButtons" class="col-3 d-flex flex-column">
         </div>
         <div class="col-6 d-flex justify-content-center" id="fireButton">
-          <button class="btn btn-danger round" onclick="fireAKAslap(1)">Fire</button>
+          <button class="btn btn-danger round" onclick="app.controllers.gameController.fire(1)">Fire</button>
         </div>
         <div class="col-3 d-flex flex-column">
-          <button class="btn btn-warning round btn-block" onclick="missileAKAkick('missile')">Missile</button>
-          <button class="btn btn-warning round btn-block" onclick="photonAKApunch('proton')">Proton</button>
+          <button class="btn btn-warning round btn-block" onclick="app.controllers.gameController.missiles()">Missile</button>
+          <button class="btn btn-warning round btn-block" onclick="app.controllers.gameController.photons()">Proton</button>
         </div>
       </div>
     </div>
-    <script src="Assets/game.js"></script>
+    <!-- <script src="Assets/game.js"></script> -->
+    <script src="Assets/main.js" type="module"></script>
   </div>
 </body>
 
